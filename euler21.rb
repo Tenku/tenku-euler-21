@@ -41,7 +41,7 @@ module Euler21
     end
 
     # Find the sum of amicable pairs under bound.
-    def run(bound)
+    def euler21_run(bound)
 
         result = []
         sum = 0
@@ -58,6 +58,8 @@ module Euler21
                 sum += n
             end
         end
+
+        sum /= 2 # The above calculation counts each pair twice.
 
         puts sum
     end

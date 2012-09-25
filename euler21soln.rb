@@ -9,4 +9,4 @@ class Euler21soln
 end
 
 program = Euler21soln.new()
-program.run(MAX)
+program.euler21_run(MAX)

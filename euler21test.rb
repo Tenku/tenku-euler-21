@@ -18,6 +18,7 @@ class Euler21test < Test::Unit::TestCase
     end
 
     def euler21_1
-        assert_equal 0 , run(11)
+        assert_equal 0 , euler21_run(11) , "Expecting 0"
+        assert_equal 504, euler21_run(300)
     end
 end
